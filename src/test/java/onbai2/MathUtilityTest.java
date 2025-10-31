@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.baiThi2.utility.MathUtility;
 
 public class MathUtilityTest {
+
     @Test
     void testDiem49Yeu() {
         assertEquals("Yếu", MathUtility.xepLoai(4.9));
